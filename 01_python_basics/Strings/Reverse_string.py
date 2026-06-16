@@ -1,0 +1,5 @@
+str = input("Enter a string : ")
+print("---------------------------")
+print("String before reversing : ",str)
+print("---------------------------")
+print("String after reversing : ",str[::-1])
