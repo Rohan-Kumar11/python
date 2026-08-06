@@ -39,3 +39,45 @@ for i in range(1 , height+1):
     for j in range(1,i*2):
         print(end="*")
     print("\n")
+    
+'''
+*********
+ *******
+  *****
+   ***
+    *
+'''
+
+print(" INVERTED FULL PYRMAID ")
+for i in range(1, height+1):
+    for j in range(1,i):
+        print(end=" ")
+    for j in range(1,(height+1-i)*2):
+        print(end="*")
+    print("\n")
+    
+'''
+    *
+   ***
+  *****
+ *******
+*********
+ *******
+  *****
+   ***
+    *
+'''
+
+print(" DIAMOND SHAPE")
+for i in range(1 , height):
+    for j in range(height-i , 0 ,-1):
+        print(end=" ")
+    for j in range(1,i*2):
+        print(end="*")
+    print("\n")
+for i in range(1, height+1):
+    for j in range(1,i):
+        print(end=" ")
+    for j in range(1,(height+1-i)*2):
+        print(end="*")
+    print("\n")
